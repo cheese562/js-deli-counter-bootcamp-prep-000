@@ -1,6 +1,6 @@
 function takeANumber(line, name)
 {
-  // return position in line
+  return "Welcome +  "
 }
 
 function nowServing(line)
