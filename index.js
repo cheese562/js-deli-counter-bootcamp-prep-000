@@ -10,7 +10,7 @@ function nowServing(katzDeliLine)
 {
   if (katzDeliLine.length === 0)
   {
-    return "There is nobody waiting to be served."
+    return "There is nobody waiting to be served!"
   }
   // return the first person in line and remove them
   else 
