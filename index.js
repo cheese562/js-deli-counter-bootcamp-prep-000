@@ -8,14 +8,14 @@ function takeANumber(katzDeliLine, name)
 
 function nowServing(line)
 {
-  if (x === 1)
+  if (line.length === 0)
   {
-    
+    return "There is nobody waiting to be served."
   }
   // return the first person in line and remove them
   else 
   {
-    return "There is nobody waiting to be served."
+    
   }  
 }
 
