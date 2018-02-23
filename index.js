@@ -28,8 +28,11 @@ function currentLine(katzDeliLine)
   else 
   {
     var line = []
-    
-    
+    let i = 0
+    while (i < katzDeliLine.length)
+    {
+      
+    }
     
     
     
