@@ -27,6 +27,7 @@ function currentLine(katzDeliLine)
   }
   else 
   {
+    var line = []
     
     
     
