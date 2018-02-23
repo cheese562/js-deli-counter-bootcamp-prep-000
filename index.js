@@ -1,7 +1,8 @@
+var katzDeliLine = [];
 
 function takeANumber(line, name)
 {
-  return "Welcome + ${name} "
+  return "Welcome, + ${name} "
 }
 
 function nowServing(line)
