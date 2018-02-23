@@ -31,7 +31,7 @@ function currentLine(katzDeliLine)
     let i = 0
     while (i < katzDeliLine.length)
     {
-      line.push(` ` +katzDeliLine[i])
+      line.push(` ` + [i+1] + `. ` + katzDeliLine[i])
       i++
     }
     
