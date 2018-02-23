@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, name)
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
-function nowServing(line)
+function nowServing(katzDeliLine)
 {
   if (line.length === 0)
   {
@@ -15,7 +15,7 @@ function nowServing(line)
   // return the first person in line and remove them
   else 
   {
-    return `Currently serving ${katzDeli.shift()}.`
+    return `Currently serving ${katzDeliLine.shift()}.`
   }  
 }
 
