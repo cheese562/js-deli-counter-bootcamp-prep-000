@@ -32,7 +32,7 @@ function currentLine(katzDeliLine)
     while (i < katzDeliLine.length)
     {
       line.push(katzDeliLine[i])
-      
+      i++
     }
     
     
