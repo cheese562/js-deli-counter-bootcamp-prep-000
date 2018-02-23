@@ -1,5 +1,3 @@
-var katzDeli = [];
-
 function takeANumber(line, name)
 {
   // return position in line
