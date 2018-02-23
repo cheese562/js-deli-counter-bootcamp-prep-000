@@ -15,7 +15,7 @@ function nowServing(line)
   // return the first person in line and remove them
   else 
   {
-    return 
+    return `Currently serving ${katzDeli.shift()}.`
   }  
 }
 
