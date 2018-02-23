@@ -1,17 +1,33 @@
 var katzDeli = [];
 
-function takeANumber(katzDeliLine, name)
+function takeANumber(line, name)
 {
   // return position in line
 }
 
-function nowServing
+function nowServing(line)
 {
+  if (x === 1)
+  {
+    
+  }
   // return the first person in line and remove them
   else 
   {
-    console.log("There is nobody waiting to be served")
+    return "There is nobody waiting to be served."
   }  
 }
 
-function current
+function currentLine(line)
+{
+  // returns the current line
+  if (x === 1)
+  {
+    
+  }
+  // return the first person in line and remove them
+  else 
+  {
+   return "The line is currently empty."
+  }
+}
