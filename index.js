@@ -31,7 +31,8 @@ function currentLine(katzDeliLine)
     let i = 0
     while (i < katzDeliLine.length)
     {
-      line =
+      line.push(katzDeliLine[i])
+      
     }
     
     
