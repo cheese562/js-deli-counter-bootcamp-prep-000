@@ -21,14 +21,12 @@ function nowServing(katzDeliLine)
 
 function currentLine(line)
 {
-  // returns the current line
-  if (x === 1)
+  if (line.length === 0)
   {
-    
+    return "The line is currently empty."
   }
-  // return the first person in line and remove them
   else 
   {
-   return "The line is currently empty."
+   return `The line is currently:
   }
 }
